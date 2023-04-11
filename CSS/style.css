@@ -8,7 +8,48 @@ body{
     background-repeat: no-repeat; */
     text-align: center;
 }
-img{
-    width: 50vw;
-    height: 70vh;
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+h1:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+li:hover{
+    background-color: indigo;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+img{
+    margin: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    transition: transform 1.2s ease-in-out;
+}
+img:hover {
+    transform: rotate(720deg);
+  }
+  button{
+    background-color: transparent;
+    padding: 10px 25px ;
+    font-size: 1.2rem;
+    border-radius: 8px;
+  }
+
+  button:hover{
+    background-color: indigo;
+    color: aliceblue;
+    cursor: pointer;
+  }
